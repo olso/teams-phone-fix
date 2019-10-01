@@ -22,7 +22,6 @@ The application fakes the browser's user agent to impersonate as Microsoft Edge.
 It will work in the background, so you will not have to interact with it.
 
 
-
 ## Privacy
 
 The application will not send any data to anywhere except to https://teams.microsoft.com/ 
@@ -34,6 +33,13 @@ There will be some download statistics of this application collected by Mozilla 
 
 The source code can be found at [github](https://github.com/dev-rke/teams-phone-fix).
 
+## Changelog
+
+### v1.1.0
+- "Shim" the permissions query native api, see https://stackoverflow.com/questions/53147944/firefox-permission-name-member-of-permissiondescriptor-camera-is-not-a-vali
+
+### v1.0.0
+- Initial
 
 ## License
 
